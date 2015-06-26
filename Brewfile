@@ -10,7 +10,6 @@ tap homebrew/versions
 
 ## homebrew/x11
 tap homebrew/x11
-brew meld
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -18,19 +17,18 @@ brew brew-file
 
 ## caskroom/cask
 tap caskroom/cask
+tap caskroom/versions
 brew brew-cask
 
 # Other Homebrew packages
-brew activemq
 brew ant
 brew atk
 brew autoconf
 brew automake
 brew bash
 brew bison
+brew boot2docker
 brew c-ares
-brew cairo
-brew cassandra
 brew cmake
 brew coreutils
 brew curl
@@ -71,7 +69,6 @@ brew lua
 brew maven
 brew mercurial
 brew midnight-commander
-brew mosquitto
 brew mysql
 brew nettle
 brew node
@@ -95,12 +92,10 @@ brew redis
 brew ruby-build
 brew s-lang
 brew s3cmd
-brew sqlite
 brew subversion
 brew the_silver_searcher
 brew tree
 brew unixodbc
-brew vert.x
 brew wxmac
 brew xz
 
@@ -110,15 +105,23 @@ brew xz
 #cask ==> We need to make Caskroom for the first time at /opt/homebrew-cask/Caskroom
 #cask ==> We'll set permissions properly so we won't need sudo in the future
 #cask Warning: nothing to list
+cask install google-chrome
+cask install flycut
+cask install itsycal
+cask install cyberduck
+cask install sequel-pro
+cask install boot2docker-status
+cask install vagrant
+cask install virtualbox
+cask install iterm2
+cask install kobito
+cask install google-japanese-ime
+cask install sourcetree
+cask install textmate
+cask install java6
+cask install java7
+cask install java
 
 # App Store applications
-appstore CopyClip
-appstore Dash
-appstore Flycut
-appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore MQTT
-appstore TextWrangler
-appstore The Unarchiver
-appstore WinArchiver Lite
 appstore Xcode

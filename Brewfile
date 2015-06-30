@@ -121,6 +121,7 @@ cask install textmate
 cask install java6
 cask install java7
 cask install java
+cask install chefdk
 
 # App Store applications
 appstore Microsoft Remote Desktop

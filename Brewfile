@@ -17,8 +17,27 @@ brew brew-file
 
 ## caskroom/cask
 tap caskroom/cask
-tap caskroom/versions
 brew brew-cask
+cask boot2docker-status
+cask chefdk
+cask cyberduck
+cask flycut
+cask google-chrome
+cask google-japanese-ime
+cask iterm2
+cask itsycal
+cask java
+cask kobito
+cask sequel-pro
+cask sourcetree
+cask textmate
+cask vagrant
+cask virtualbox
+
+## caskroom/versions
+tap caskroom/versions
+cask java6
+cask java7
 
 # Other Homebrew packages
 brew ant
@@ -29,6 +48,7 @@ brew bash
 brew bison
 brew boot2docker
 brew c-ares
+brew cassandra
 brew cmake
 brew coreutils
 brew curl
@@ -98,30 +118,6 @@ brew tree
 brew unixodbc
 brew wxmac
 brew xz
-
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask ==> We need to make Caskroom for the first time at /opt/homebrew-cask/Caskroom
-#cask ==> We'll set permissions properly so we won't need sudo in the future
-#cask Warning: nothing to list
-cask install google-chrome
-cask install flycut
-cask install itsycal
-cask install cyberduck
-cask install sequel-pro
-cask install boot2docker-status
-cask install vagrant
-cask install virtualbox
-cask install iterm2
-cask install kobito
-cask install google-japanese-ime
-cask install sourcetree
-cask install textmate
-cask install java6
-cask install java7
-cask install java
-cask install chefdk
 
 # App Store applications
 appstore Microsoft Remote Desktop

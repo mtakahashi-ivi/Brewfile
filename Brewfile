@@ -7,6 +7,7 @@ brew tcpdump
 
 ## homebrew/versions
 tap homebrew/versions
+brew cassandra20
 
 ## homebrew/x11
 tap homebrew/x11
@@ -48,7 +49,6 @@ brew bash
 brew bison
 brew boot2docker
 brew c-ares
-brew cassandra
 brew cmake
 brew coreutils
 brew curl

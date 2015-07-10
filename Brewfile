@@ -33,7 +33,8 @@ cask sequel-pro
 cask sourcetree
 cask textmate
 cask vagrant
-cask virtualbox
+#vagrant does not support viatualbox 5.0
+#cask virtualbox
 
 ## caskroom/versions
 tap caskroom/versions

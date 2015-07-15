@@ -33,8 +33,6 @@ cask sequel-pro
 cask sourcetree
 cask textmate
 cask vagrant
-#vagrant does not support viatualbox 5.0
-#cask virtualbox
 
 ## caskroom/versions
 tap caskroom/versions
@@ -93,6 +91,7 @@ brew midnight-commander
 brew mysql
 brew nettle
 brew node
+brew nodebrew
 brew openssl
 brew p11-kit
 brew pango

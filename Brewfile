@@ -71,6 +71,7 @@ brew gobject-introspection
 brew gtk+
 brew gtksourceview
 brew harfbuzz
+brew heroku-toolbelt
 brew icu4c
 brew intltool
 brew jpeg

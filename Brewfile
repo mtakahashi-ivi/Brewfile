@@ -29,6 +29,7 @@ cask iterm2
 cask itsycal
 cask java
 cask kobito
+cask robomongo
 cask sequel-pro
 cask sourcetree
 cask textmate

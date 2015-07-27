@@ -51,9 +51,9 @@ brew c-ares
 brew cmake
 brew coreutils
 brew curl
+brew docker-compose
 brew emacs --with-gnutls --cocoa --japanese --srgb
 brew erlang
-brew fig
 brew fontconfig
 brew freetype
 brew gd

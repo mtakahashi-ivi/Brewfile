@@ -33,6 +33,7 @@ cask sequel-pro
 cask sourcetree
 cask textmate
 cask vagrant
+cask virtualbox
 
 ## caskroom/versions
 tap caskroom/versions

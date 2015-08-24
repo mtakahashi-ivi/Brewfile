@@ -28,6 +28,7 @@ cask google-japanese-ime
 cask iterm2
 cask itsycal
 cask java
+cask jd-gui
 cask kobito
 cask robomongo
 cask sequel-pro

@@ -53,6 +53,7 @@ brew c-ares
 brew cmake
 brew coreutils
 brew curl
+brew dex2jar
 brew docker-compose
 brew emacs --with-gnutls --cocoa --japanese --srgb
 brew erlang
@@ -91,6 +92,7 @@ brew lua
 brew maven
 brew mercurial
 brew midnight-commander
+brew mongodb
 brew mysql
 brew nettle
 brew node

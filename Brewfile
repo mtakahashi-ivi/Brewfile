@@ -78,6 +78,7 @@ brew harfbuzz
 brew heroku-toolbelt
 brew icu4c
 brew intltool
+brew jmeter
 brew jpeg
 brew jq
 brew libffi

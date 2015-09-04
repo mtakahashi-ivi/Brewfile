@@ -49,13 +49,13 @@ brew autoconf
 brew automake
 brew bash
 brew bison
-brew boot2docker
 brew c-ares
 brew cmake
 brew coreutils
 brew curl
 brew dex2jar
 brew docker-compose
+brew docker-machine
 brew emacs --with-gnutls --cocoa --japanese --srgb
 brew erlang
 brew fontconfig

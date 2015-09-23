@@ -97,6 +97,7 @@ brew midnight-commander
 brew mongodb
 brew mysql
 brew nettle
+brew ngrok
 brew node
 brew nodebrew
 brew openssl

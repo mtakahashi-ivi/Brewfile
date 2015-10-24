@@ -3,6 +3,7 @@
 
 ## homebrew/dupes
 tap homebrew/dupes
+brew grep --with-default-names
 brew tcpdump
 
 ## homebrew/versions

@@ -6,6 +6,10 @@ cask chefdk
 cask google-chrome
 cask google-japanese-ime
 cask iterm2
+cask itsycal
+cask cyberduck
+cask sequel-pro
+cask textmate
 cask java
 cask jd-gui
 cask robomongo
@@ -47,7 +51,6 @@ brew autoconf
 brew automake
 brew bash
 brew bison
-brew boot2docker
 brew c-ares
 brew cmake
 brew coreutils
@@ -59,7 +62,6 @@ brew emacs --with-gnutls --with-cocoa
 brew epstool
 brew erlang
 brew fftw
-brew fig
 brew fontconfig
 brew freetype
 brew gcc
@@ -158,11 +160,6 @@ brew tree
 brew unixodbc
 brew wxmac
 brew xz
-
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask kobito (!)
 
 # App Store applications
 appstore Flycut

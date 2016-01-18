@@ -3,17 +3,17 @@
 
 tap caskroom/cask
 cask chefdk
+cask cyberduck
 cask google-chrome
 cask google-japanese-ime
 cask iterm2
 cask itsycal
-cask cyberduck
-cask sequel-pro
-cask textmate
 cask java
 cask jd-gui
 cask robomongo
+cask sequel-pro
 cask sourcetree
+cask textmate
 cask vagrant
 cask virtualbox
 
@@ -75,7 +75,7 @@ brew gl2ps
 brew glib
 brew gmp
 brew gnome-icon-theme
-brew gnu-tar
+brew gnu-tar --with-default-names
 brew gnupg
 brew gnuplot --with-qt
 brew gnutls
@@ -126,6 +126,7 @@ brew openssl
 brew p11-kit
 brew p7zip
 brew pango
+brew parallel
 brew pcre
 brew pixman
 brew pkg-config

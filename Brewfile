@@ -125,6 +125,7 @@ brew nodebrew
 brew openssl
 brew p11-kit
 brew p7zip
+brew pandoc
 brew pango
 brew parallel
 brew pcre

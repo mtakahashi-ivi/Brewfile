@@ -45,6 +45,7 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
+brew android-sdk
 brew ant
 brew atk
 brew autoconf
@@ -113,6 +114,7 @@ brew libtool
 brew libyaml
 brew little-cms2
 brew lua
+brew memcached
 brew mercurial
 brew midnight-commander
 brew mongodb
@@ -129,6 +131,7 @@ brew pandoc
 brew pango
 brew parallel
 brew pcre
+brew phantomjs
 brew pixman
 brew pkg-config
 brew plotutils

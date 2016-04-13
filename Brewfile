@@ -45,7 +45,6 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
-brew android-sdk
 brew ant
 brew atk
 brew autoconf
@@ -162,6 +161,7 @@ brew szip
 brew tbb
 brew the_silver_searcher
 brew tree
+brew typesafe-activator
 brew unixodbc
 brew wxmac
 brew xz

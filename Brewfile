@@ -10,6 +10,7 @@ cask iterm2
 cask itsycal
 cask java
 cask jd-gui
+cask mysqlworkbench
 cask robomongo
 cask sequel-pro
 cask sourcetree
@@ -36,7 +37,6 @@ brew suite-sparse421
 brew veclibfort
 
 tap homebrew/versions
-brew cassandra20
 brew maven32
 
 tap homebrew/x11
@@ -49,9 +49,11 @@ brew ant
 brew atk
 brew autoconf
 brew automake
+brew awscli
 brew bash
 brew bison
 brew c-ares
+brew cassandra20
 brew cmake
 brew coreutils
 brew curl
@@ -81,6 +83,7 @@ brew gnuplot --with-qt
 brew gnutls
 brew gobject-introspection
 brew graphicsmagick
+brew graphviz
 brew gsettings-desktop-schemas
 brew gtk+
 brew gtk+3

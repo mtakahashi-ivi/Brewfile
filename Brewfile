@@ -18,9 +18,13 @@ cask textmate
 cask vagrant
 cask virtualbox
 
+tap caskroom/cask
+
 tap caskroom/versions
 cask java6
 cask java7
+
+tap caskroom/versions
 
 tap homebrew/dupes
 brew grep --with-default-names
@@ -33,7 +37,6 @@ brew hdf5
 brew octave
 brew qhull
 brew qrupdate
-brew suite-sparse421
 brew veclibfort
 
 tap homebrew/versions
@@ -113,6 +116,7 @@ brew libssh2
 brew libtasn1
 brew libtiff
 brew libtool
+brew libwebsockets
 brew libyaml
 brew little-cms2
 brew lua
@@ -160,6 +164,7 @@ brew s3cmd
 brew sip
 brew sqlite
 brew subversion
+brew suite-sparse421
 brew szip
 brew tbb
 brew the_silver_searcher

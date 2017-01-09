@@ -26,6 +26,9 @@ cask java7
 
 tap caskroom/versions
 
+tap codekitchen/dinghy
+brew dinghy
+
 tap homebrew/dupes
 brew grep --with-default-names
 brew tcpdump
@@ -60,6 +63,7 @@ brew cassandra20
 brew cmake
 brew coreutils
 brew curl
+brew dbus
 brew dex2jar
 brew docker
 brew docker-machine
@@ -73,6 +77,7 @@ brew gcc
 brew gd
 brew gdbm
 brew gdk-pixbuf
+brew geoip
 brew gettext
 brew ghostscript
 brew git-flow
@@ -96,6 +101,7 @@ brew gtksourceview3
 brew harfbuzz
 brew heroku-toolbelt
 brew hicolor-icon-theme
+brew homebrew/boneyard/unfs3
 brew icu4c
 brew imagemagick
 brew intltool
@@ -107,6 +113,7 @@ brew jq
 brew libcroco
 brew libepoxy
 brew libffi
+brew libgcrypt
 brew libgpg-error
 brew libksba
 brew libmpc
@@ -129,7 +136,6 @@ brew mysql
 brew nettle
 brew ngrok
 brew node
-brew nodebrew
 brew openssl
 brew p11-kit
 brew p7zip
@@ -171,6 +177,7 @@ brew the_silver_searcher
 brew tree
 brew typesafe-activator
 brew unixodbc
+brew wireshark --with-qt
 brew wxmac
 brew xz
 

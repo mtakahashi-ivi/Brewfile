@@ -11,7 +11,6 @@ cask itsycal
 cask java
 cask jd-gui
 cask mysqlworkbench
-cask robomongo
 cask sequel-pro
 cask sourcetree
 cask textmate
@@ -22,28 +21,18 @@ tap caskroom/cask
 
 tap caskroom/versions
 cask java6
-cask java7
 
 tap caskroom/versions
 
 tap codekitchen/dinghy
 brew dinghy
+brew homebrew/boneyard/unfs3
 
 tap homebrew/dupes
-brew grep --with-default-names
-brew tcpdump
 
 tap homebrew/science
-brew arpack
-brew glpk
-brew hdf5
-brew octave
-brew qhull
-brew qrupdate
-brew veclibfort
 
 tap homebrew/versions
-brew maven32
 
 tap homebrew/x11
 
@@ -52,6 +41,7 @@ brew brew-file
 
 # Other Homebrew packages
 brew ant
+brew arpack
 brew atk
 brew autoconf
 brew automake
@@ -60,6 +50,7 @@ brew bash
 brew bison
 brew c-ares
 brew cassandra20
+brew chromedriver
 brew cmake
 brew coreutils
 brew curl
@@ -83,15 +74,16 @@ brew ghostscript
 brew git-flow
 brew gl2ps
 brew glib
+brew glpk
 brew gmp
 brew gnome-icon-theme
 brew gnu-tar --with-default-names
 brew gnupg
-brew gnuplot --with-qt
 brew gnutls
 brew gobject-introspection
 brew graphicsmagick
 brew graphviz
+brew grep --with-default-names
 brew gsettings-desktop-schemas
 brew gtk+
 brew gtk+3
@@ -99,9 +91,9 @@ brew gtk-mac-integration
 brew gtksourceview
 brew gtksourceview3
 brew harfbuzz
+brew hdf5
 brew heroku-toolbelt
 brew hicolor-icon-theme
-brew homebrew/boneyard/unfs3
 brew icu4c
 brew imagemagick
 brew intltool
@@ -111,6 +103,7 @@ brew jmeter
 brew jpeg
 brew jq
 brew libcroco
+brew libdnet
 brew libepoxy
 brew libffi
 brew libgcrypt
@@ -123,10 +116,12 @@ brew libssh2
 brew libtasn1
 brew libtiff
 brew libtool
+brew libunistring
 brew libwebsockets
 brew libyaml
 brew little-cms2
 brew lua
+brew maven32
 brew memcached
 brew mercurial
 brew midnight-commander
@@ -155,10 +150,11 @@ brew pygobject
 brew pygobject3
 brew pygtk
 brew pygtksourceview
-brew pyqt
 brew python
-brew qscintilla2
+brew qhull
+brew qrupdate
 brew qt
+brew qt@5.5
 brew rarian
 brew rbenv
 brew readline
@@ -173,13 +169,19 @@ brew subversion
 brew suite-sparse421
 brew szip
 brew tbb
+brew tcpdump
 brew the_silver_searcher
 brew tree
 brew typesafe-activator
 brew unixodbc
-brew wireshark --with-qt
+brew veclibfort
+brew wireshark
 brew wxmac
 brew xz
+
+# Cask applications
+cask robomongo
+cask java7
 
 # App Store applications
 appstore Flycut
